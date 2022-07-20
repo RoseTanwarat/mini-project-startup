@@ -1,0 +1,141 @@
+
+body,
+html{
+    width: 100%;
+    height: 100%;
+    font-family:Ibarra Real Nova;
+    /* background:linear-gradient(100deg,#8d8c8b,#517aaf ) no-repeat center center fixed ; */
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -moz-background-size:cover ;
+    background-size:cover;
+    background-color: #b9bcbd;
+}    
+/* -------------------------- Nav -------------------*/
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    /* border-right:2px solid white; */
+    /* margin-top: 1rem; */
+}
+
+.nav-link:hover{
+    color:#706885;
+}
+
+.nav-item1{
+    border-right:1px solid white;
+    margin-top: 1rem;
+}
+.nav-item2{
+    border-right:1px solid white;
+    margin-top: 1rem;
+}
+.nav-item3{
+    margin-top: 1rem;
+}
+
+
+
+/* -------------------------- body -------------------*/
+.text-about{
+    text-align: center;
+    font-size:  4rem;
+    margin-top: 2rem;
+    color:rgb(255, 255, 255);
+}
+
+.grid-wrapper{
+    display: grid;
+    /* grid-template-columns: repeat(auto fill, minmax(350px,1fr)); */
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 1fr; */
+    
+}
+
+.box{
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.box > img{
+    width: 100%;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+
+/* -------------------------- กล่องขยับ -------------------*/
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);        /*  ทำให้กล่องขยับเฉียงๆ */
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+/* ---------------------------------------------------- */
+
+.educate{
+   background-color: rgb(245, 245, 245);
+   border-radius:4px;
+   padding: 40px;
+}
+
+.work-exp{
+   background-color: rgb(245, 245, 245);
+   border-radius:4px;
+   padding: 40px;
+}
+
+.text-head{
+    font-weight: 500;
+}
+
+.curiculum{
+   background-color: rgb(245, 245, 245);
+   border-radius:4px;
+   padding: 40px;
+   /* width: 40%; */
+   line-height: 35px;
+}
+
+.skill-pro{
+   background-color: rgb(245, 245, 245);
+   border-radius:4px;
+   padding: 38px;
+   /* width: 40%; */
+}
+
+.grid-con{
+    display: grid;
+    /* justify-content: space-evenly; */
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* padding: 5px; */
+    
+}
+
+
